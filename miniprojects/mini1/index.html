@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniproject 1</title>
+    <style>
+        * {
+            font-family: "Papyrus", sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            background-color: red;
+            width: 100%;
+        }
+
+        body {
+            height: 2000px;
+            background-color: blue;
+            color: grey;
+            margin: 0;
+        }
+
+        .input-form-list {
+            list-style: none;
+            padding-top: 200px;
+        }
+
+        main {
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>This is the header</h1>
+        <nav>
+            <a href="https://google.com">Link 1</a>
+            <a href="#contact_form">Contact</a>
+            <a href="https://google.com">Link 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <figure>
+            <img src="./assets/images/cornbread.jpeg" alt="Cornbread food" />
+            <figcaption>Delicious Cornbread</figcaption>
+        </figure>
+        <section>
+            <form id="contact_form">
+                <ul class="input-form-list">
+                    <li>
+                        Name <input type="text" />
+                    </li>
+                    <li>
+                        Email <input type="text" />
+                    </li>
+                    <li>
+                        <input type="submit" value="Contact me" />
+                    </li>
+                </ul>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3>This is the footer</h3>
+    </footer>
+</body>
+</html>
