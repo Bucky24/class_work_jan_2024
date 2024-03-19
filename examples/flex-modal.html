@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #modal_outer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(1,1,1,0.3);
+        }
+
+        #modal_inner {
+            min-width: 400px;
+            min-height: 400px;
+            padding: 10px;
+            background-color: purple;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="modal_outer">
+        <div id="modal_inner">
+            content of modal
+        </div>
+    </div>
+    this is undeneath the parent wooo
+</body>
+</html>
