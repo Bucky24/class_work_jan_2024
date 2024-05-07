@@ -1,0 +1,10 @@
+<h3>List of Projects:</h3>
+<main>
+    {{#each projects as |project| }}
+        <a href="/projects/{{project.id}}">
+            <div>
+                <span>{{project.name}}</span>
+            </div>
+        </a>
+    {{/each}}
+</main>

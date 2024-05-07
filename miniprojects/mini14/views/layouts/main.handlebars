@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdFunding App</title>
+</head>
+<body>
+    <header>
+        <h2>CrowdFunding</h2>
+        {{#unless logged_in}}
+            <a href="/login"><button>Login</button></a>
+        {{/unless}}
+    </header>
+    {{{body}}}
+</body>
+</html>
