@@ -13,6 +13,19 @@ function commonElement(arrA, arrB) {
     }
 };
 
+// more efficient
+function commonElement(arrA, arrB) {
+    const setA = new Set(arrA);
+    
+    for (let num of arrB) {
+        if (setA.has(num)) {
+            return num;
+        }
+    }
+    
+    return null;
+}
+
 const array1 = [1, 2, 9, 4, 5];
 const array2 = [6, 7, 3, 8, 9];
 console.log(commonElement(array1, array2));
